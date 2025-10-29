@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to the movies!</title>
+</head>
+<body>
+    <form action="Admission.php" method="get">
+    <h1>Welcome to the Movies!</h1>
+    Enter your age to determine your price. <br>  
+        Age <input type="text" name="age" required maxlength="2" oninput="this.value =
+         this.value.replace(/[^0-9]/g, ''); limitInput()">  
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+This Student Has A Guardian by the Name Of: Steven He
+
+STUDENT
+Name: Johnathan
+Surname: Atkins
+BirthDay: 24 August 2021
+Gender: Male
+KinderGarten
+
+Day of Enrollment
+Tue May 17 13:35:52 CAT 2022
+
+Guardian
+Name: Johnathan
+Surname: Atkins
+BirthDay: 29 Jully 1996
+Gender: Male
+RelationShip With Child is good
+Residential Address: 7 BackStreet Road, Springs
+Contact Detials: 0835198517
+
+Emergency Contact Details: 0835198517

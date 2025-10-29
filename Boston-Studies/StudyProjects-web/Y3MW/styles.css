@@ -1,0 +1,111 @@
+/* Top Bar Customization */
+#topBar {
+    background-color: #eeff00c2;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: calc(100% - 20px);
+    margin-right: 10px; 
+    margin-left: 10px; 
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.page-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.Logo img {
+    vertical-align: middle;
+}
+.Intro {
+    flex-grow: 1;
+    text-align: center;
+}
+.Logout {
+    margin-left: auto;
+}
+.Logout button {
+    background-color: #8C2D38;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.Logout button:hover {
+    background-color: #02fc02;
+}
+.hamburger-component {
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+}
+.header-dropdown {
+    position: relative;
+}
+.header-dropdown details {
+    position: relative;
+}
+.header-dropdown summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+}
+.header-dropdown summary::-webkit-details-marker {
+    display: none;
+}
+.app-drawer {
+    display: none;
+    position: fixed;
+    right: 0;
+    background-color: rgba(47, 196, 163, 0.8);
+    color: #ffffff;
+    top: 60px;
+    width: 250px;
+    z-index: 1000;
+    overflow-y: auto;
+    height: calc(100vh - 60px);
+}
+.dropdown-menu {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.dropdown-menu li {
+    margin-bottom: 10px;
+}
+.dropdown-menu li.subsection {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+.dropdown-menu li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    text-decoration: underline;
+}
+.header-dropdown details[open] .app-drawer {
+    display: block;
+    width: 10%;
+}
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #FF007F;
+    border-radius: 5px;
+}

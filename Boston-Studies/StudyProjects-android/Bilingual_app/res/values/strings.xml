@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Bilingual_app</string>
+    <string name="Click_txt">Click button to continue</string>
+    <string name="Button_txt">Button</string>
+    <string name="Text2">Welcome to page 2</string>
+</resources>

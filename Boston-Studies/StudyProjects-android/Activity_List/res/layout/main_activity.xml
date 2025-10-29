@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:text="Cape Town" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:text="Johannesburg" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:text="Pretoria" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:text="Show Me Activities"
+        app:layout_constraintBottom_toBottomOf="@+id/radioGroup"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/radioGroup" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="383dp"
+        android:layout_height="488dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

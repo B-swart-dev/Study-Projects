@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>Login Screen For HPXS302-1 OLMS PROGRAM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f3f3f3;
+        /* https://www.wallpaperflare.com/black-wooden-ladder-beside-brown-wooden-bookshelf-library-step-wallpaper-azcer */
+        background-image: url("background.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+
+    .login_container {
+        width: 300px;
+        margin: 100px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #c4c0c0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .login_container img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    label, input {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #8C2D38;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #00d300;
+        color: white;
+        font-weight: bold;
+    }
+
+    .error {
+        color: rgb(255, 0, 0);
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+</style>
+<body>
+<div class="login_container">
+    <img src="Boston_Institution_Logo.png" alt="Logo" class=".logo">
+    <form id="loginForm">
+        <label for="lblusername">Username:</label>
+        <input type="text" id="username" name="user">
+        <label for="lblpassword">Password:</label>
+        <input type="password" id="password" name="password">
+        <p id="error" class="error"></p>
+        <button type="submit">Login</button>
+    </form>
+</div>
+<script src="loginassist.js"></script>
+</body>
+</html>
